@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceriyya Salon & Beauty Klin Indramayu | Brow, Lash, Face Treatment, Spa & Makeup</title>
+  <meta name="description" content="Ceriyya Salon & Beauty Klin di Indramayu. Spesialis Eyelash Extension, Brow Lamination, Facial Glowing, Spa Relaksasi, dan Makeup Profesional di Ruko Jangkar Mas Residen Indramayu.">
+  <meta name="keywords" content="Ceriyya Salon, salon indramayu, beauty clinic indramayu, eyelash indramayu, facial indramayu, spa indramayu, makeup indramayu">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for beauty & navigation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span class="announcement-badge"><i class="fa-solid fa-sparkles"></i> Promo Bulan Ini</span>
+      <p>Diskon Spesial 20% Treatment Pertama & Free Skin Consultation! Reservasi Sekarang.</p>
+      <a href="#paket" class="announcement-link">Klaim Promo <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo" id="brand-logo">
+        <img src="assets/images/logo.jpg" alt="Logo Ceriyya Salon Beauty Klin" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-title">Ceriyya Salon</span>
+          <span class="logo-subtitle">BEAUTY KLIN • INDRAMAYU</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Menu Utama">
+        <ul class="nav-list">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#layanan" class="nav-link">Layanan & Harga</a></li>
+          <li><a href="#keunggulan" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#before-after" class="nav-link">Hasil Treatment</a></li>
+          <li><a href="#paket" class="nav-link">Paket Promo</a></li>
+          <li><a href="#testimoni" class="nav-link">Ulasan</a></li>
+          <li><a href="#lokasi" class="nav-link">Lokasi & Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="https://wa.me/6281234567890?text=Halo%20Admin%20Ceriyya%20Salon,%20saya%20ingin%20tanya%20jadwal%20dan%20treatment" target="_blank" rel="noopener noreferrer" class="btn-wa-header" aria-label="WhatsApp Kami">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Konsultasi WA</span>
+        </a>
+        <button class="btn btn-primary btn-booking-header" id="btnOpenBookingModal">
+          <i class="fa-regular fa-calendar-check"></i>
+          <span>Reservasi Online</span>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu navigasi">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <div class="drawer-brand">
+        <img src="assets/images/logo.jpg" alt="Logo" class="drawer-logo-img">
+        <span>Ceriyya Salon</span>
+      </div>
+      <button class="drawer-close" id="drawerClose" aria-label="Tutup Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#beranda" class="mobile-link">Beranda</a></li>
+      <li><a href="#layanan" class="mobile-link">Layanan & Harga</a></li>
+      <li><a href="#keunggulan" class="mobile-link">Tentang Salon</a></li>
+      <li><a href="#before-after" class="mobile-link">Hasil Nyata (Before & After)</a></li>
+      <li><a href="#paket" class="mobile-link">Paket Promo Spesial</a></li>
+      <li><a href="#testimoni" class="mobile-link">Testimoni Klien</a></li>
+      <li><a href="#lokasi" class="mobile-link">Lokasi & Jam Buka</a></li>
+      <li><a href="#faq" class="mobile-link">FAQ / Tanya Jawab</a></li>
+    </ul>
+    <div class="mobile-drawer-actions">
+      <button class="btn btn-primary btn-block" id="btnMobileBooking">
+        <i class="fa-regular fa-calendar-check"></i> Booking Treatment
+      </button>
+      <a href="https://wa.me/6281234567890?text=Halo%20Ceriyya%20Salon,%20mau%20konsultasi" class="btn btn-outline-wa btn-block" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i> Hubungi WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="backdrop-overlay" id="backdropOverlay"></div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="beranda">
+      <div class="hero-decor-circle circle-1"></div>
+      <div class="hero-decor-circle circle-2"></div>
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-pill-badge">
+            <i class="fa-solid fa-crown text-gold"></i>
+            <span>The Premier Beauty Sanctuary in Indramayu</span>
+          </div>
+
+          <h1 class="hero-title">
+            Pesona Cantik Alami, <br>
+            Sentuhan <span class="highlight-luxury">Perawatan Elegan</span>
+          </h1>
+
+          <p class="hero-description">
+            Selamat datang di <strong>Ceriyya Salon & Beauty Klin</strong>. Kami menghadirkan standar perawatan kecantikan terkini mulai dari Eyelash & Brow Artistry, Facial Glowing Berstandar Klinis, Body Spa Mewah, hingga Makeup Profesional di pusat kota Indramayu.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-lg pulse-glow" id="heroBookingBtn">
+              <i class="fa-solid fa-sparkles"></i> Reservasi Treatment Sekarang
+            </button>
+            <a href="#layanan" class="btn btn-secondary btn-lg">
+              <i class="fa-solid fa-list-check"></i> Lihat Daftar Layanan
+            </a>
+          </div>
+
+          <!-- Trust Badges Under Hero -->
+          <div class="hero-features-row">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-certificate"></i></div>
+              <div class="feature-text">
+                <strong>Terapis Bersertifikat</strong>
+                <span>Tenaga ahli & berlisensi</span>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-pump-medical"></i></div>
+              <div class="feature-text">
+                <strong>100% Produk BPOM</strong>
+                <span>Higienis & teruji klinis</span>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-star"></i></div>
+              <div class="feature-text">
+                <strong>Rating 4.9/5.0</strong>
+                <span>Dipercaya 1000+ wanita</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="assets/images/hero-salon.jpg" alt="Interior Mewah Ceriyya Salon Beauty Klin Indramayu" class="hero-main-img">
+            <div class="hero-card-floating hero-badge-location">
+              <div class="location-pin"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="badge-label">Lokasi Strategis</span>
+                <p class="badge-val">Ruko Jangkar Mas, Indramayu</p>
+              </div>
+            </div>
+            <div class="hero-card-floating hero-badge-rating">
+              <div class="rating-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="rating-text">"Salon paling nyaman dan estetik di Indramayu!"</p>
+              <span class="rating-author">- Rina S., Member VIP</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- KEY SERVICES HIGHLIGHT STRIP -->
+    <section class="services-strip">
+      <div class="container strip-grid">
+        <div class="strip-item">
+          <span class="strip-num">01</span>
+          <div class="strip-info">
+            <h3>Lash & Brow</h3>
+            <p>Extension, Lash Lift & Brow Henna</p>
+          </div>
+        </div>
+        <div class="strip-item">
+          <span class="strip-num">02</span>
+          <div class="strip-info">
+            <h3>Face Treatment</h3>
+            <p>Korean Glass Skin & Detox Glow</p>
+          </div>
+        </div>
+        <div class="strip-item">
+          <span class="strip-num">03</span>
+          <div class="strip-info">
+            <h3>Spa & Body Care</h3>
+            <p>Aromatherapy & Lulur Relaksasi</p>
+          </div>
+        </div>
+        <div class="strip-item">
+          <span class="strip-num">04</span>
+          <div class="strip-info">
+            <h3>Makeup Artistry</h3>
+            <p>Wisuda, Lamaran & Bridal Styling</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="keunggulan">
+      <div class="container about-grid">
+        <div class="about-gallery">
+          <div class="about-img-box img-1">
+            <img src="assets/images/facial-glow.jpg" alt="Treatment Facial Glow Ceriyya Salon">
+          </div>
+          <div class="about-img-box img-2">
+            <img src="assets/images/spa-treatment.jpg" alt="Body Spa Ceriyya Salon">
+          </div>
+          <div class="experience-card">
+            <span class="exp-number">5+</span>
+            <span class="exp-text">Tahun Melayani Kecantikan Anda</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="section-tag"><i class="fa-solid fa-gem"></i> Tentang Ceriyya Salon</div>
+          <h2 class="section-title">Harmoni Kemewahan, Kelembutan, dan Hasil Nyata</h2>
+          <p class="section-desc">
+            Ceriyya Salon & Beauty Klin didirikan dengan satu misi: menghadirkan sanctuary kecantikan eksklusif bagi wanita Indramayu yang mendambakan perawatan berkelas dengan suasana privat, tenang, dan higienis.
+          </p>
+
+          <div class="about-points">
+            <div class="about-point-card">
+              <div class="point-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div>
+                <h4>Teknik & Teknologi Modern</h4>
+                <p>Menggunakan alat modern berstandar estetika klinis untuk hasil yang maksimal dan tanpa rasa sakit.</p>
+              </div>
+            </div>
+
+            <div class="about-point-card">
+              <div class="point-icon"><i class="fa-solid fa-shield-heart"></i></div>
+              <div>
+                <h4>Kenyamanan & Privasi Maksimal</h4>
+                <p>Ruang treatment khusus wanita yang bersih, sejuk, beraroma lavender relaksasi, dan didesain ramah muslimah.</p>
+              </div>
+            </div>
+
+            <div class="about-point-card">
+              <div class="point-icon"><i class="fa-solid fa-award"></i></div>
+              <div>
+                <h4>Personalisasi Perawatan</h4>
+                <p>Konsultasi kondisi kulit dan bentuk mata gratis sebelum memulai setiap rangkaian treatment.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-action">
+            <a href="#layanan" class="btn btn-primary">Lihat Pilihan Perawatan <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEFORE & AFTER INTERACTIVE SECTION -->
+    <section class="before-after-section" id="before-after">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-eye"></i> Hasil Nyata Klien</div>
+          <h2 class="section-title">Transformasi Indah yang Memukau</h2>
+          <p class="section-desc">Geser garis slider di bawah ini untuk melihat perbandingan langsung hasil treatment Eyelash Extension & Brow Artistry di Ceriyya Salon.</p>
+        </div>
+
+        <div class="ba-slider-container" id="baSliderContainer">
+          <div class="ba-image-wrapper">
+            <!-- After Image (Background) -->
+            <img src="assets/images/after-lash.jpg" alt="Hasil Setelah Treatment Lash Extension Ceriyya Salon" class="ba-img ba-after">
+            <span class="ba-label label-after">SESUDAH (AFTER)</span>
+
+            <!-- Before Image (Clipped) -->
+            <div class="ba-before-wrapper" id="baBeforeWrapper">
+              <img src="assets/images/before-lash.jpg" alt="Sebelum Treatment Lash Extension" class="ba-img ba-before">
+              <span class="ba-label label-before">SEBELUM (BEFORE)</span>
+            </div>
+
+            <!-- Drag Handle Divider -->
+            <div class="ba-slider-handle" id="baHandle">
+              <div class="handle-line"></div>
+              <div class="handle-circle">
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="handle-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ba-details-card">
+          <div class="ba-detail-item">
+            <i class="fa-solid fa-check-circle text-gold"></i>
+            <span><strong>Treatment:</strong> Russian Volume Eyelash & Micro-brow Sculpting</span>
+          </div>
+          <div class="ba-detail-item">
+            <i class="fa-regular fa-clock text-gold"></i>
+            <span><strong>Durasi:</strong> ± 90 Menit</span>
+          </div>
+          <div class="ba-detail-item">
+            <i class="fa-solid fa-feather text-gold"></i>
+            <span><strong>Kenyamanan:</strong> Bulu mata ringan, tidak menusuk, bertahan 4-6 minggu</span>
+          </div>
+          <div class="ba-cta">
+            <button class="btn btn-outline btn-sm btn-quick-book" data-service="Eyelash Extension Russian Volume" data-price="250000">
+              Booking Treatment Ini
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FULL SERVICE MENU & PRICE LIST -->
+    <section class="services-section" id="layanan">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-spa"></i> Menu Perawatan Lengkap</div>
+          <h2 class="section-title">Pilihan Treatment & Daftar Harga</h2>
+          <p class="section-desc">Pilih kategori yang Anda butuhkan, lihat detail serta manfaatnya, dan klik untuk menambahkan langsung ke reservasi online Anda.</p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="services-tabs" role="tablist">
+          <button class="tab-btn active" data-category="all" role="tab" aria-selected="true">
+            <i class="fa-solid fa-border-all"></i> Semua Layanan
+          </button>
+          <button class="tab-btn" data-category="lash-brow" role="tab" aria-selected="false">
+            <i class="fa-solid fa-eye"></i> Lash & Brow
+          </button>
+          <button class="tab-btn" data-category="face" role="tab" aria-selected="false">
+            <i class="fa-solid fa-sparkles"></i> Face & Skin
+          </button>
+          <button class="tab-btn" data-category="spa" role="tab" aria-selected="false">
+            <i class="fa-solid fa-hot-tub-person"></i> Spa & Body
+          </button>
+          <button class="tab-btn" data-category="makeup" role="tab" aria-selected="false">
+            <i class="fa-solid fa-wand-magic"></i> Makeup & Hair
+          </button>
+        </div>
+
+        <!-- Services Grid Container -->
+        <div class="services-grid" id="servicesGrid">
+          
+          <!-- LASH & BROW SERVICES -->
+          <div class="service-card" data-category="lash-brow">
+            <div class="service-image-box">
+              <img src="assets/images/eyelash-treatment.jpg" alt="Russian Volume Eyelash">
+              <span class="service-badge popular">Paling Favorit</span>
+            </div>
+            <div class="service-body">
+              <div class="service-category">Lash & Brow Artistry</div>
+              <h3 class="service-name">Eyelash Extension Russian Volume</h3>
+              <p class="service-desc">Teknik pasang bulu mata ekstra bervolume namun tetap sangat ringan di mata. Memberi efek mata dramatis, lentik, dan tebal sempurna.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Menggunakan helai ultra-soft premium</li>
+                <li><i class="fa-solid fa-check"></i> Lem medis anti-perih & tahan lama</li>
+                <li><i class="fa-solid fa-check"></i> Free spoolie brush & konsultasi bentuk</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 90 Menit</span>
+                  <span class="price-amount">Rp 250.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="lash-1" data-name="Eyelash Extension Russian Volume" data-price="250000" data-duration="90 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-category="lash-brow">
+            <div class="service-image-box">
+              <img src="assets/images/after-lash.jpg" alt="Natural Korean Lash Extension">
+            </div>
+            <div class="service-body">
+              <div class="service-category">Lash & Brow Artistry</div>
+              <h3 class="service-name">Korean Natural Look Lash Extension</h3>
+              <p class="service-desc">Cocok untuk tampilan sehari-hari yang natural dan anggun layaknya artis Korea. Ringan, tidak menusuk, dan mempertegas garis mata.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> 1 helai sintetis per bulu mata asli</li>
+                <li><i class="fa-solid fa-check"></i> Hasil super natural & effortless</li>
+                <li><i class="fa-solid fa-check"></i> Tahan hingga 4-6 minggu</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 75 Menit</span>
+                  <span class="price-amount">Rp 185.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="lash-2" data-name="Korean Natural Lash Extension" data-price="185000" data-duration="75 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-category="lash-brow">
+            <div class="service-image-box">
+              <img src="assets/images/before-lash.jpg" alt="Lash Lift Keratin and Tint">
+              <span class="service-badge">Natural Lash</span>
+            </div>
+            <div class="service-body">
+              <div class="service-category">Lash & Brow Artistry</div>
+              <h3 class="service-name">Lash Lift & Keratin Tinting</h3>
+              <p class="service-desc">Perawatan melentikkan bulu mata asli sendiri dengan nutrisi keratin cair dan pewarnaan tint hitam pekat. Tanpa sambungan bulu mata.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Bulu mata asli ternutrisi & lebih tebal</li>
+                <li><i class="fa-solid fa-check"></i> Bebas maskara & jepit bulu mata</li>
+                <li><i class="fa-solid fa-check"></i> Ketahanan 6-8 minggu</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 60 Menit</span>
+                  <span class="price-amount">Rp 135.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="lash-3" data-name="Lash Lift & Keratin Tint" data-price="135000" data-duration="60 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-category="lash-brow">
+            <div class="service-image-box">
+              <img src="assets/images/after-lash.jpg" alt="Brow Lamination and Henna">
+            </div>
+            <div class="service-body">
+              <div class="service-category">Lash & Brow Artistry</div>
+              <h3 class="service-name">Brow Lamination & Henna Brow Styling</h3>
+              <p class="service-desc">Merapikan arah tumbuh alis agar tampak penuh, terangkat rapi (feathery brow), dipadukan dengan pewarnaan henna organik bersertifikat.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Alis tampak simetris & bervolume</li>
+                <li><i class="fa-solid fa-check"></i> Henna halal wudhu-friendly</li>
+                <li><i class="fa-solid fa-check"></i> Termasuk perapian bentuk alis</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 50 Menit</span>
+                  <span class="price-amount">Rp 120.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="lash-4" data-name="Brow Lamination & Henna" data-price="120000" data-duration="50 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- FACE & SKIN TREATMENT -->
+          <div class="service-card" data-category="face">
+            <div class="service-image-box">
+              <img src="assets/images/facial-glow.jpg" alt="Korean Glass Skin Facial">
+              <span class="service-badge popular">Best Seller Skin</span>
+            </div>
+            <div class="service-body">
+              <div class="service-category">Face Treatment Klin</div>
+              <h3 class="service-name">Korean Glass Skin Deep Hydration</h3>
+              <p class="service-desc">Signature treatment untuk hasil wajah berkilau cerah, pori-pori tersamarkan, dan hidrasi instan ala kulit perempuan Korea.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Cleansing, scrub ultrasonic & komedo vacuum</li>
+                <li><i class="fa-solid fa-check"></i> Infusi ampoule hyaluronic acid & collagen</li>
+                <li><i class="fa-solid fa-check"></i> Masker glowing rubber mask + PDT Red Light</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 80 Menit</span>
+                  <span class="price-amount">Rp 220.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="face-1" data-name="Korean Glass Skin Facial" data-price="220000" data-duration="80 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-category="face">
+            <div class="service-image-box">
+              <img src="assets/images/facial-glow.jpg" alt="Facial Detox Glowing">
+            </div>
+            <div class="service-body">
+              <div class="service-category">Face Treatment Klin</div>
+              <h3 class="service-name">Facial Detox Charcoal & Oxygen Bubble</h3>
+              <p class="service-desc">Mengeluarkan racun polusi, sisa makeup, dan sebum berlebih dari pori-pori terdalam dengan busa oksigen murni dan serum botanical.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Mengatasi wajah kusam & lelah</li>
+                <li><i class="fa-solid fa-check"></i> Extra totok wajah pengencang saraf</li>
+                <li><i class="fa-solid fa-check"></i> Wajah seketika segar dan rileks</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 70 Menit</span>
+                  <span class="price-amount">Rp 175.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="face-2" data-name="Facial Detox Charcoal & Oxygen" data-price="175000" data-duration="70 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-category="face">
+            <div class="service-image-box">
+              <img src="assets/images/facial-glow.jpg" alt="Acne Clarifying Facial">
+            </div>
+            <div class="service-body">
+              <div class="service-category">Face Treatment Klin</div>
+              <h3 class="service-name">Acne Clear & Pores Purifying Care</h3>
+              <p class="service-desc">Solusi tuntas untuk jerawat meradang, bekas kemerahan, dan komedo membandel dengan sterilisasi High-Frequency & serum tea tree.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Ekstraksi komedo steril minim rasa sakit</li>
+                <li><i class="fa-solid fa-check"></i> Terapi sinar Blue Light Anti-Bakteri</li>
+                <li><i class="fa-solid fa-check"></i> Calming mask pereda inflamasi</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 90 Menit</span>
+                  <span class="price-amount">Rp 195.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="face-3" data-name="Acne Clear & Pores Purifying" data-price="195000" data-duration="90 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- SPA & BODY CARE -->
+          <div class="service-card" data-category="spa">
+            <div class="service-image-box">
+              <img src="assets/images/spa-treatment.jpg" alt="Aromatherapy Body Massage & Spa">
+              <span class="service-badge">Relaksasi Total</span>
+            </div>
+            <div class="service-body">
+              <div class="service-category">Spa & Body Wellness</div>
+              <h3 class="service-name">Ceriyya Signature Royal Body Spa</h3>
+              <p class="service-desc">Paket lengkap pemanjaan tubuh mulai dari pijat relaksasi minyak aromaterapi lavender/mawar, lulur rempah tradisional, hingga body butter.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Menghilangkan pegal & melancarkan sirkulasi</li>
+                <li><i class="fa-solid fa-check"></i> Mengangkat sel kulit mati agar cerah halus</li>
+                <li><i class="fa-solid fa-check"></i> Free teh herbal hangat pasca treatment</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 100 Menit</span>
+                  <span class="price-amount">Rp 230.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="spa-1" data-name="Ceriyya Signature Royal Body Spa" data-price="230000" data-duration="100 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-category="spa">
+            <div class="service-image-box">
+              <img src="assets/images/spa-treatment.jpg" alt="Hair Spa & Creambath Aromatik">
+            </div>
+            <div class="service-body">
+              <div class="service-category">Spa & Hair Wellness</div>
+              <h3 class="service-name">Hair Spa & Creambath Nutrisi Wangi</h3>
+              <p class="service-desc">Perawatan rambut intensif dengan krim aloe vera, alpukat atau ginseng, disertai pijatan kepala, leher, dan bahu yang super menenangkan.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Mengatasi rambut rontok, kusam & lepek</li>
+                <li><i class="fa-solid fa-check"></i> Steamer uap hangat untuk penyerapan optimal</li>
+                <li><i class="fa-solid fa-check"></i> Termasuk blow dry rapi & wangi</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 60 Menit</span>
+                  <span class="price-amount">Rp 95.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="spa-2" data-name="Hair Spa & Creambath Nutrisi" data-price="95000" data-duration="60 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- MAKEUP & STYLING -->
+          <div class="service-card" data-category="makeup">
+            <div class="service-image-box">
+              <img src="assets/images/makeup-session.jpg" alt="Makeup Wisuda dan Event">
+              <span class="service-badge popular">Event & Wisuda</span>
+            </div>
+            <div class="service-body">
+              <div class="service-category">Makeup Artistry</div>
+              <h3 class="service-name">Soft Glam Makeup Wisuda & Pesta</h3>
+              <p class="service-desc">Makeup flawless tahan seharian tanpa cakey dan tidak luntur karena keringat. Cocok untuk wisuda, pesta resepsi, dan acara spesial.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Produk high-end & complexion water-resistant</li>
+                <li><i class="fa-solid fa-check"></i> Termasuk bulu mata premium & softlens assist</li>
+                <li><i class="fa-solid fa-check"></i> Free styling hijabdo / hair styling rapi</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 75 Menit</span>
+                  <span class="price-amount">Rp 275.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="mua-1" data-name="Soft Glam Makeup Wisuda & Pesta" data-price="275000" data-duration="75 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-category="makeup">
+            <div class="service-image-box">
+              <img src="assets/images/makeup-session.jpg" alt="Makeup Lamaran & Prewedding">
+              <span class="service-badge">Bridal / Engagement</span>
+            </div>
+            <div class="service-body">
+              <div class="service-category">Makeup Artistry</div>
+              <h3 class="service-name">Glamour Engagement & Prewedding MUA</h3>
+              <p class="service-desc">Riasan anggun berkelas untuk hari pertunangan (lamaran), sesi foto pre-wedding, maupun akad nikah intimate di Indramayu.</p>
+              <ul class="service-perks">
+                <li><i class="fa-solid fa-check"></i> Skin preparation mendalam agar makeup menyatu</li>
+                <li><i class="fa-solid fa-check"></i> Konsultasi tema kebaya / gaun</li>
+                <li><i class="fa-solid fa-check"></i> Touch-up kit eksklusif</li>
+              </ul>
+              <div class="service-footer">
+                <div class="service-price-box">
+                  <span class="price-duration"><i class="fa-regular fa-clock"></i> 120 Menit</span>
+                  <span class="price-amount">Rp 450.000</span>
+                </div>
+                <button class="btn btn-primary btn-sm btn-choose-service" data-id="mua-2" data-name="Glamour Engagement & Prewedding MUA" data-price="450000" data-duration="120 Menit">
+                  Pilih Layanan
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SPECIAL PROMO BUNDLES -->
+    <section class="packages-section" id="paket">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-gift"></i> Hemat & Spesial</div>
+          <h2 class="section-title">Paket Komplit Treatment Ceriyya</h2>
+          <p class="section-desc">Dapatkan kombinasi perawatan terbaik dengan harga paket lebih hemat dan keuntungan berlipat.</p>
+        </div>
+
+        <div class="packages-grid">
+          
+          <!-- Package 1 -->
+          <div class="package-card">
+            <div class="package-header">
+              <span class="package-tag">Cantik Praktis</span>
+              <h3 class="package-title">Glow & Eye Beauty Combo</h3>
+              <div class="package-pricing">
+                <span class="price-old">Rp 370.000</span>
+                <span class="price-curr">Rp 299.000</span>
+                <span class="price-save">Hemat 71rb</span>
+              </div>
+            </div>
+            <ul class="package-items">
+              <li><i class="fa-solid fa-circle-check"></i> Facial Detox Charcoal Glowing</li>
+              <li><i class="fa-solid fa-circle-check"></i> Korean Lash Extension / Lash Lift</li>
+              <li><i class="fa-solid fa-circle-check"></i> Free Eyebrow Shaping & Henna Tint</li>
+              <li><i class="fa-solid fa-circle-check"></i> Free Calming Eye Mask Treatment</li>
+            </ul>
+            <button class="btn btn-primary btn-block btn-choose-package" data-name="Paket Glow & Eye Beauty Combo" data-price="299000">
+              Pilih Paket Ini
+            </button>
+          </div>
+
+          <!-- Package 2 - Best Seller -->
+          <div class="package-card featured">
+            <div class="featured-ribbon">PALING LARIS</div>
+            <div class="package-header">
+              <span class="package-tag">Queen Treatment</span>
+              <h3 class="package-title">All-in-One Princess Pampering</h3>
+              <div class="package-pricing">
+                <span class="price-old">Rp 545.000</span>
+                <span class="price-curr">Rp 425.000</span>
+                <span class="price-save">Hemat 120rb</span>
+              </div>
+            </div>
+            <ul class="package-items">
+              <li><i class="fa-solid fa-circle-check"></i> Korean Glass Skin Deep Hydration</li>
+              <li><i class="fa-solid fa-circle-check"></i> Signature Royal Body Spa & Lulur</li>
+              <li><i class="fa-solid fa-circle-check"></i> Hair Spa Creambath Aromatik + Blow</li>
+              <li><i class="fa-solid fa-circle-check"></i> Free Totok Aura Wajah Relaksasi</li>
+            </ul>
+            <button class="btn btn-primary btn-block btn-choose-package" data-name="Paket All-in-One Princess Pampering" data-price="425000">
+              Pilih Paket Ini
+            </button>
+          </div>
+
+          <!-- Package 3 -->
+          <div class="package-card">
+            <div class="package-header">
+              <span class="package-tag">Calon Pengantin & Wisuda</span>
+              <h3 class="package-title">Bridal & Event Ready Glow</h3>
+              <div class="package-pricing">
+                <span class="price-old">Rp 725.000</span>
+                <span class="price-curr">Rp 580.000</span>
+                <span class="price-save">Hemat 145rb</span>
+              </div>
+            </div>
+            <ul class="package-items">
+              <li><i class="fa-solid fa-circle-check"></i> Russian Volume Lash Extension</li>
+              <li><i class="fa-solid fa-circle-check"></i> Facial Glowing Collagen Anti-Aging</li>
+              <li><i class="fa-solid fa-circle-check"></i> Lulur Pencerah Seluruh Tubuh</li>
+              <li><i class="fa-solid fa-circle-check"></i> Free Treatment Hand & Foot Spa</li>
+            </ul>
+            <button class="btn btn-primary btn-block btn-choose-package" data-name="Paket Bridal & Event Ready Glow" data-price="580000">
+              Pilih Paket Ini
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENT TESTIMONIALS -->
+    <section class="testimonials-section" id="testimoni">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-heart"></i> Cerita Pelanggan</div>
+          <h2 class="section-title">Apa Kata Mereka Tentang Ceriyya Salon?</h2>
+          <p class="section-desc">Kepuasan dan kecantikan Anda adalah kebanggaan kami di Indramayu.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <div class="testimonial-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-text">"Pasang lash extension di Ceriyya Salon hasilnya rapi banget! Bulu matanya halus, enteng, dan gak bikin mata gatal sama sekali. Udah sebulan masih awet dan cantik. Tempatnya juga bersih dan wangi banget!"</p>
+            <div class="testi-author">
+              <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="author-details">
+                <h4>Nadia Safitri</h4>
+                <span>Treatment: Russian Volume Lash • Indramayu Kota</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-text">"Facial Korean Glass Skin-nya juara! Komedo terangkat bersih tanpa sakit atau merah-merah parah. Besokannya kulit langsung glowing kenyal. Terapisnya ramah dan telaten ngejelasin tahapan perawatannya."</p>
+            <div class="testi-author">
+              <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="author-details">
+                <h4>dr. Melly Anggraini</h4>
+                <span>Treatment: Korean Glass Skin Facial • Sindang</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-text">"Wajib banget coba paket spa-nya kalau lagi capek kerja. Pijatan punggungnya mantap, lulurnya bikin kulit halus dan wangi seharian. Senang akhirnya ada salon berkualitas mewah di Ruko Jangkar Mas Indramayu!"</p>
+            <div class="testi-author">
+              <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+              <div class="author-details">
+                <h4>Dian Puspitasari</h4>
+                <span>Treatment: Royal Body Spa • Jatibarang</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ ACCORDION -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-circle-question"></i> Bantuan & Informasi</div>
+          <h2 class="section-title">Pertanyaan yang Sering Diajukan (FAQ)</h2>
+          <p class="section-desc">Semua hal yang perlu Anda ketahui sebelum berkunjung ke Ceriyya Salon & Beauty Klin.</p>
+        </div>
+
+        <div class="faq-accordion" id="faqAccordion">
+          
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>Apakah harus reservasi / booking terlebih dahulu?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Kami sangat menyarankan Anda melakukan reservasi melalui formulir online website ini atau WhatsApp agar slot terapis dan ruang treatment Anda telah disiapkan secara privat tanpa perlu mengantre. Namun kami juga tetap menyambut kunjungan langsung (walk-in) selama slot masih tersedia.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Berapa lama ketahanan Eyelash Extension di Ceriyya Salon?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Ketahanan bulu mata kami umumnya berkisar antara 4 hingga 6 minggu, tergantung pada siklus pertumbuhan bulu mata alami Anda dan perawatan harian. Kami juga menyediakan layanan retouch ekonomis jika Anda ingin memperbarui kerapatan bulu mata setelah 2-3 minggu.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Apakah treatment facial di Ceriyya Salon aman untuk ibu hamil & menyusui?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Ya, kami memiliki pilihan protokol treatment facial botanical dan natural hydrating yang 100% aman (Bumil & Busui Friendly) tanpa bahan kimia keras atau radiasi tertentu. Terapis kami akan melakukan konsultasi terlebih dahulu sebelum treatment.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Metode pembayaran apa saja yang diterima?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Kami menerima berbagai metode pembayaran non-tunai yang praktis: QRIS (GoPay, OVO, Dana, ShopeePay, BCA Mobile), Transfer Bank, serta Tunai (Cash).</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Di mana lokasi tepatnya dan apakah ada tempat parkir?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Lokasi kami sangat strategis dan mudah diakses di Jln. Pasar Baru, Komplek Ruko Jangkar Mas Residen No. 5, Indramayu, Jawa Barat. Area parkir mobil dan motor luas, aman, dan berpenjagaan.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION & CONTACT SECTION -->
+    <section class="location-section" id="lokasi">
+      <div class="container">
+        <div class="location-card">
+          <div class="location-info">
+            <div class="section-tag"><i class="fa-solid fa-map-pin"></i> Temukan Kami</div>
+            <h2 class="location-title">Kunjungi Studio Kecantikan Kami</h2>
+            
+            <div class="info-block">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-text">
+                <strong>Alamat Salon:</strong>
+                <p>Jln. Pasar Baru, Komplek Ruko Jangkar Mas Residen No. 5, Indramayu, Jawa Barat</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
+              <div class="info-text">
+                <strong>Jam Operasional:</strong>
+                <p>Senin – Minggu: 09.00 – 20.00 WIB <br><span class="badge-open">Buka Setiap Hari Termasuk Libur</span></p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="info-text">
+                <strong>Reservasi WhatsApp:</strong>
+                <p><a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">+62 812-3456-7890 (Admin Respon Cepat)</a></p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-icon"><i class="fa-brands fa-instagram"></i></div>
+              <div class="info-text">
+                <strong>Instagram Resmi:</strong>
+                <p><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">@ceriyyasalon.beautyklin</a></p>
+              </div>
+            </div>
+
+            <div class="location-cta-btns">
+              <a href="https://maps.google.com/?q=Ruko+Jangkar+Mas+Residen+Indramayu" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <i class="fa-solid fa-diamond-turn-right"></i> Petunjuk Arah Google Maps
+              </a>
+              <a href="https://wa.me/6281234567890?text=Halo%20Admin%20Ceriyya%20Salon,%20saya%20ingin%20tanya%20arah%20lokasi" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="fa-brands fa-whatsapp"></i> Chat Admin
+              </a>
+            </div>
+          </div>
+
+          <div class="location-map-wrap">
+            <!-- Simulated Stylized Map Preview Card -->
+            <div class="map-card-aesthetic">
+              <div class="map-header">
+                <div class="map-pin-pulse"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <strong>Ceriyya Salon & Beauty Klin</strong>
+                  <span>Ruko Jangkar Mas Residen No. 5, Indramayu</span>
+                </div>
+              </div>
+              <iframe 
+                title="Peta Lokasi Ceriyya Salon Indramayu" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.971936306346!2d108.318854!3d-6.332766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6eb949cf0b0ef9%3A0x64be6503c2763f0!2sPasar%20Baru%20Indramayu!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" 
+                width="100%" 
+                height="320" 
+                style="border:0; border-radius: 16px;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+              <div class="map-footer-hint">
+                <i class="fa-solid fa-circle-info"></i> Area parkir luas di depan ruko, mudah diakses kendaraan roda 2 dan 4.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col col-brand">
+        <div class="footer-logo">
+          <img src="assets/images/logo.jpg" alt="Logo Ceriyya Salon" class="footer-logo-img">
+          <div>
+            <h3>Ceriyya Salon</h3>
+            <span>BEAUTY KLIN INDRAMAYU</span>
+          </div>
+        </div>
+        <p class="footer-about">
+          Destinasi perawatan kecantikan terbaik wanita Indramayu. Mengutamakan kenyamanan, kualitas higienis berstandar klinis, dan sentuhan estetika alami yang memancarkan pesona terbaik Anda.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Menu Cepat</h4>
+        <ul class="footer-links">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#layanan">Layanan & Harga</a></li>
+          <li><a href="#before-after">Hasil Treatment</a></li>
+          <li><a href="#paket">Paket Promo Hemat</a></li>
+          <li><a href="#testimoni">Ulasan Pelanggan</a></li>
+          <li><a href="#lokasi">Lokasi & Jam Buka</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Treatment Utama</h4>
+        <ul class="footer-links">
+          <li><a href="#layanan">Eyelash Extension Russian</a></li>
+          <li><a href="#layanan">Korean Natural Lash Lift</a></li>
+          <li><a href="#layanan">Korean Glass Skin Facial</a></li>
+          <li><a href="#layanan">Facial Detox Glowing</a></li>
+          <li><a href="#layanan">Royal Body Spa Lavender</a></li>
+          <li><a href="#layanan">Makeup Wisuda & Bridal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Kontak & Jadwal</h4>
+        <p class="footer-contact-item"><i class="fa-solid fa-map-location-dot"></i> Jln. Pasar Baru, Komplek Ruko Jangkar Mas Residen No. 5, Indramayu</p>
+        <p class="footer-contact-item"><i class="fa-solid fa-phone"></i> +62 812-3456-7890</p>
+        <p class="footer-contact-item"><i class="fa-regular fa-clock"></i> Buka Setiap Hari: 09.00 - 20.00 WIB</p>
+        <div class="footer-badge">
+          <i class="fa-solid fa-shield-halved"></i> Ladies Only Sanctuary
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>© 2026 Ceriyya Salon & Beauty Klin Indramayu. Seluruh Hak Cipta Dilindungi.</p>
+        <p class="designer-credit">Designed with <i class="fa-solid fa-heart text-pink"></i> for Timeless Indonesian Beauty.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/6281234567890?text=Halo%20Ceriyya%20Salon,%20saya%20ingin%20konsultasi%20dan%20reservasi" target="_blank" rel="noopener noreferrer" class="floating-wa" id="floatingWa" aria-label="Chat WhatsApp Admin">
+    <div class="wa-tooltip">
+      <span class="pulse-dot"></span> Chat WhatsApp Admin (Online)
+    </div>
+    <div class="wa-icon-box">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+  </a>
+
+  <!-- INTERACTIVE BOOKING MODAL -->
+  <div class="booking-modal-overlay" id="bookingModalOverlay">
+    <div class="booking-modal-container" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <span class="modal-badge"><i class="fa-solid fa-sparkles"></i> Booking Cepat & Mudah</span>
+          <h3 id="modalTitle">Reservasi Treatment di Ceriyya Salon</h3>
+        </div>
+        <button class="modal-close-btn" id="closeBookingModal" aria-label="Tutup Formulir">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <form id="bookingForm">
+          
+          <!-- Selected Treatment Section -->
+          <div class="form-section">
+            <label class="form-label"><i class="fa-solid fa-spa text-gold"></i> Pilih Treatment yang Diinginkan:</label>
+            <div class="services-select-list" id="modalServicesList">
+              <label class="service-checkbox-card">
+                <input type="checkbox" name="services" value="Eyelash Extension Russian Volume" data-price="250000">
+                <span class="check-box-custom"></span>
+                <span class="service-check-title">Eyelash Russian Volume</span>
+                <span class="service-check-price">Rp 250.000</span>
+              </label>
+
+              <label class="service-checkbox-card">
+                <input type="checkbox" name="services" value="Korean Natural Lash Extension" data-price="185000">
+                <span class="check-box-custom"></span>
+                <span class="service-check-title">Korean Natural Lash</span>
+                <span class="service-check-price">Rp 185.000</span>
+              </label>
+
+              <label class="service-checkbox-card">
+                <input type="checkbox" name="services" value="Lash Lift & Keratin Tint" data-price="135000">
+                <span class="check-box-custom"></span>
+                <span class="service-check-title">Lash Lift & Keratin Tint</span>
+                <span class="service-check-price">Rp 135.000</span>
+              </label>
+
+              <label class="service-checkbox-card">
+                <input type="checkbox" name="services" value="Korean Glass Skin Facial" data-price="220000">
+                <span class="check-box-custom"></span>
+                <span class="service-check-title">Korean Glass Skin Facial</span>
+                <span class="service-check-price">Rp 220.000</span>
+              </label>
+
+              <label class="service-checkbox-card">
+                <input type="checkbox" name="services" value="Facial Detox Charcoal & Oxygen" data-price="175000">
+                <span class="check-box-custom"></span>
+                <span class="service-check-title">Facial Detox Charcoal</span>
+                <span class="service-check-price">Rp 175.000</span>
+              </label>
+
+              <label class="service-checkbox-card">
+                <input type="checkbox" name="services" value="Ceriyya Signature Royal Body Spa" data-price="230000">
+                <span class="check-box-custom"></span>
+                <span class="service-check-title">Ceriyya Royal Body Spa</span>
+                <span class="service-check-price">Rp 230.000</span>
+              </label>
+
+              <label class="service-checkbox-card">
+                <input type="checkbox" name="services" value="Hair Spa & Creambath Aromatik" data-price="95000">
+                <span class="check-box-custom"></span>
+                <span class="service-check-title">Hair Spa Creambath</span>
+                <span class="service-check-price">Rp 95.000</span>
+              </label>
+
+              <label class="service-checkbox-card">
+                <input type="checkbox" name="services" value="Soft Glam Makeup Wisuda & Pesta" data-price="275000">
+                <span class="check-box-custom"></span>
+                <span class="service-check-title">Makeup Wisuda & Pesta</span>
+                <span class="service-check-price">Rp 275.000</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Date & Time Row -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="bookDate" class="form-label"><i class="fa-regular fa-calendar text-gold"></i> Tanggal Kunjungan:</label>
+              <input type="date" id="bookDate" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label for="bookTime" class="form-label"><i class="fa-regular fa-clock text-gold"></i> Pilihan Jam (09.00 - 19.00):</label>
+              <select id="bookTime" class="form-input" required>
+                <option value="">Pilih Jam...</option>
+                <option value="09:00 WIB">09:00 WIB</option>
+                <option value="10:30 WIB">10:30 WIB</option>
+                <option value="12:00 WIB">12:00 WIB</option>
+                <option value="13:30 WIB">13:30 WIB</option>
+                <option value="15:00 WIB">15:00 WIB</option>
+                <option value="16:30 WIB">16:30 WIB</option>
+                <option value="18:00 WIB">18:00 WIB</option>
+                <option value="19:00 WIB">19:00 WIB</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Customer Identity -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="bookName" class="form-label"><i class="fa-regular fa-user text-gold"></i> Nama Lengkap:</label>
+              <input type="text" id="bookName" class="form-input" placeholder="Contoh: Rina Amalia" required>
+            </div>
+            <div class="form-group">
+              <label for="bookPhone" class="form-label"><i class="fa-brands fa-whatsapp text-gold"></i> Nomor WhatsApp:</label>
+              <input type="tel" id="bookPhone" class="form-input" placeholder="Contoh: 08123456789" required>
+            </div>
+          </div>
+
+          <!-- Special Notes -->
+          <div class="form-group">
+            <label for="bookNotes" class="form-label"><i class="fa-regular fa-comment-dots text-gold"></i> Catatan Tambahan (Opsional):</label>
+            <input type="text" id="bookNotes" class="form-input" placeholder="Contoh: Kulit sensitif, ingin model bulu mata lentik natural">
+          </div>
+
+          <!-- Live Price Estimation Box -->
+          <div class="price-estimation-box">
+            <div class="est-row">
+              <span>Layanan Terpilih:</span>
+              <strong id="selectedServicesCount">0 Layanan</strong>
+            </div>
+            <div class="est-row est-total">
+              <span>Estimasi Total:</span>
+              <strong class="total-highlight" id="modalTotalPrice">Rp 0</strong>
+            </div>
+            <p class="est-hint">*Pembayaran dilakukan saat treatment di kasir salon (bisa Cash, QRIS, atau Transfer).</p>
+          </div>
+
+          <!-- Submit Buttons -->
+          <div class="modal-form-actions">
+            <button type="submit" class="btn btn-primary btn-block btn-lg" id="btnSubmitBooking">
+              <i class="fa-brands fa-whatsapp"></i> Konfirmasi & Kirim Reservasi via WhatsApp
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BOOKING SUCCESS CONFIRMATION MODAL -->
+  <div class="booking-modal-overlay" id="successModalOverlay">
+    <div class="booking-modal-container success-container" role="dialog">
+      <div class="success-icon-wrap">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h3>Reservasi Siap Dikirim!</h3>
+      <p>Data reservasi Anda telah berhasil dirangkum. Klik tombol di bawah ini untuk membuka WhatsApp dan mengirim rincian janji temu ke Admin Ceriyya Salon.</p>
+      
+      <div class="success-summary-box" id="successSummaryBox">
+        <!-- Rendered by JS -->
+      </div>
+
+      <div class="modal-form-actions">
+        <a href="#" id="btnFinalWhatsApp" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+          <i class="fa-brands fa-whatsapp"></i> Lanjutkan Buka Chat WhatsApp
+        </a>
+        <button type="button" class="btn btn-secondary btn-block" id="btnCloseSuccessModal">
+          Tutup
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/app.js"></script>
+</body>
+</html>
